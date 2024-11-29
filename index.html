@@ -2,34 +2,34 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Sena Survey Form </title>
+    <title>Sena Pro SURVEY</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Sena Survey Form</h1>
-    <p>Llena esta encuesta con la informacion requerida!</p>
+    <h1>Sena Pro SURVEY</h1>
+    <p>Porfavor, llena la encuesta </p>
     <form method="post" action='https://register-demo.freecodecamp.org'>
       <fieldset>
-        <label for="first-name">Digita tu nombre: <input id="first-name" name="first-name" type="text" required /></label>
-        <label for="last-name">Dijita tus apellidos: <input id="last-name" name="last-name" type="text" required /></label>
-        <label for="email">Digita tu Email: <input id="email" name="email" type="email" required /></label>
-        <label for="new-password">Crea una nueva contraseña: <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
+        <label for="first-name">NOMBRES <input id="first-name" name="first-name" type="text" required /></label>
+        <label for="last-name">APELLIDOS <input id="last-name" name="last-name" type="text" required /></label>
+        <label for="email">EMAIL <input id="email" name="email" type="email" required /></label>
+        <label for="new-password">NUEVA CONTRASEÑA <input id="new-password" name="new-password" type="password" pattern="[a-z0-5]{8,}" required /></label>
       </fieldset>
       <fieldset>
-        <legend>Tipo de cuenta (requerida)</legend>
+        <legend>Account type (required)</legend>
         <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
         <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
       </fieldset>
       <fieldset>
         <label for="profile-picture">Upload a profile picture: <input id="profile-picture" type="file" name="file" /></label>
-        <label for="age">Cuantos Años Tienes?: <input id="age" type="number" name="age" min="13" max="120" /></label>
-        <label for="referrer">Donde nos escuchaste?
+        <label for="age">PON TU EDAD: <input id="age" type="number" name="age" min="13" max="120" /></label>
+        <label for="referrer">Donde nos escuvhaste
           <select id="referrer" name="referrer">
             <option value="">(select one)</option>
-            <option value="1">Sena CEET</option>
-            <option value="2">SENA SOFT</option>
-            <option value="3">Sena CGMLTI</option>
-            <option value="4">Other</option>
+            <option value="1">SENA</option>
+            <option value="2">SENA YouTube Channel</option>
+            <option value="3">SENA Forum</option>
+            <option value="4">OTRO</option>
           </select>
         </label>
         <label for="bio">Provide a bio:
